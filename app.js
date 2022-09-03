@@ -14,17 +14,12 @@ const fromEuroToDollar = function(valueInEuro){
     let valueInDollar = valueInEuro * 1.2;
     return valueInDollar;
 }
-let oneDollarIs = {
-    "JPY": 130,
-}
 //fromDollarToYen
 const fromDollarToYen = function(valueInDollar){
     let valueInYen = valueInDollar * 130;
     return valueInYen;
 }
-let oneYenIs ={
-    "GBP": 0.9,
-}
+
 //fromYenToPound
 const fromYenToPound = function(valueInYen) {
     let valueInPound= valueInYen * 0.9;
